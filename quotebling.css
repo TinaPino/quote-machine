@@ -1,0 +1,110 @@
+#text{
+ font-size: 3em;
+ font-weight: bold;
+ color: white;
+ margin: 1em;
+ }
+
+#author{
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 3em;
+}
+
+.spacer{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+    
+.qmark{
+    margin: 3em;
+}
+
+.font{
+ font-family: 'Chilanka', cursive;
+}
+
+body {
+    
+    background: linear-gradient(-5deg, black, black, black, silver, black, black,  silver, black, black, silver, black, silver, black);
+    background-size: 400% 200%;
+	animation: grad 15s ease infinite;
+}
+
+@keyframes grad {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#quote-box{
+   
+   background:
+url(https://lh3.googleusercontent.com/UDc65-YhR5sGxLetb0y7SNuZZCn7F4qBgrv19dnB-nbwWVrbxtE5GfTYwb2k6RVCOz5luLKtyWqagcbnDez2kzEKl5G6-6feS76ooxh3iJFnbktCxlvAMK1PIUb5BdoEi4_HB43Mf-tYjakX3ezIGUP5GKVuy4fydwVKGuHcfZElR-AR-fyk_t2hTupt_x4mzSl-aK0A7Sl5hnkKPLK7r3D7F1IB7b3xym8rVZn9MT0SDAl2NI350iTxewiqp_qmziWALYmU0rQQYJ93q_U7xn7GbNn0ST1MekAWElLbDiYTqjZSaxQ3G8T6-1mnM_CY_A617bRSSZUvXBdSf_74OpCaHWLGJfolobvh_YMTJWr0O_hObdHuV6YmeLd0OPbE6J-gJ_NuIXzB-4LjA4nioUnByMoRX7zs55vWosqJrFyXFDn1Zr-xbYK3_PWYlUBmt0LC9wUm3w_PPxvheM4yy3V7S9MuKEh--tdSCuZ2tG-d98ROqefR6Hc3-EzJ5a7MIklPOVrcvNC6hs9weQFessnfe_JoNXjzk2nKappz-0MUDKv8nNtf5NzyZ2FHOyFXXedKM8KELszrag5z8DCWEgPS4aGjP6FWntWzu7mLPIJ96ZA9nYO2wG7YDCNK_pIfWfFIBb5VCEkQQabx8q9F5HuSAX2pQHWTpiD_-KR2uslemZzCIbbj5k1UH06Dxw=w972-h730-no?authuser=0) no-repeat center scroll;
+  background-size: contain;
+  padding: 3.5em;
+  animation-name: bloom;
+  animation-duration: 5s;
+  animation-iteration-count: 1;  
+}
+
+
+@keyframes bloom {
+  0%{
+    font-size: 0.2em;
+  }
+   5%{
+    font-size: 0.3em;
+  }
+   10%{
+    font-size: 0.4m;
+  }
+   15%{
+    font-size: 0.5em;
+  }
+   20%{
+    font-size: 0.6em;
+  }
+   25%{
+    font-size: 0.7em;
+  }
+  30%{
+    font-size: 0.8em;
+     }
+  35%{
+    font-size: 0.9em;
+  }
+  40%{
+       font-size: 1em;
+     }
+}
+
+#new-quote {
+    color: white;
+    font-size: 1em;
+    margin-right: 20em;
+    padding: 0.4em;
+    border-radius: 20%;
+    background-color: #176138;
+    
+  }
+  
+  #tweet-quote{
+    color: white;
+    font-size: 1em;
+    padding: .4em;
+    background-color: #387da8;
+    border-radius: 20%;
+      
+  }
+
+  .navbar{
+    height: 2.5em;
+    opacity: 0.5;
+  }
